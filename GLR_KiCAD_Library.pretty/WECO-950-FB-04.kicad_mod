@@ -1,7 +1,7 @@
 (footprint "WECO-950-FB-04"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WECO-950-FB-04 StepUp generated footprint")
 	(property "Reference" "REF**"
@@ -23,18 +23,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8fe58f51-c7f1-49f0-920a-b7c1752ddec6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -106,7 +94,7 @@
 	(pad "1" thru_hole rect
 		(at 0.438 17.5)
 		(size 2 2)
-		(drill 1)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "dec8d85f-218a-469d-bf16-7c360572d8c5")
@@ -114,7 +102,7 @@
 	(pad "2" thru_hole circle
 		(at 0.438 12.5)
 		(size 2 2)
-		(drill 1)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "dddbc864-567c-4b8e-9d23-6fc752d70224")
@@ -122,7 +110,7 @@
 	(pad "3" thru_hole circle
 		(at 0.438 7.5)
 		(size 2 2)
-		(drill 1)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "66aed7ca-9e09-4d06-a435-e055c62a4443")
@@ -130,11 +118,12 @@
 	(pad "4" thru_hole circle
 		(at 0.438 2.5)
 		(size 2 2)
-		(drill 1)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cf629f83-8876-4ca7-b9f6-5f96d66512c1")
 	)
+	(embedded_fonts no)
 	(model "C:/GitHub/glr-KiCAD-library/GLR_KiCad_Library.3dshapes/WECO-950-FB-04.STEP"
 		(offset
 			(xyz 0 -20 3.25)
