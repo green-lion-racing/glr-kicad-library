@@ -72,4 +72,16 @@ K
 F https://www.infineon.com/dgdl/Infineon-TLE6250-DataSheet-v04_20-EN.pdf?fileId=5546d46259d9a4bf015a3d3687956174
 $ENDCMP
 #
+$CMP 691321100004
+D WURTH ELEKTRONIK - 691321100004 - Terminal Block, Header, 3.5 mm, 4 Ways, 10 A, 300 V, Through Hole Vertical
+K
+F https://componentsearchengine.com/Datasheets/2/691321100004.pdf
+$ENDCMP
+#
+$CMP 691321100002
+D WR-TBL Terminal block - serie 3211 Wurth Elektronik 3211 Series 3.5mm Pitch Straight Pluggable Terminal Block, PCB Header with Solder Termination
+K
+F http://katalog.we-online.de/em/datasheet/6913211000xx.pdf
+$ENDCMP
+#
 #End Doc Library

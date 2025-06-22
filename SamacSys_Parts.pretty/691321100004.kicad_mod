@@ -1,0 +1,231 @@
+(footprint "691321100004"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "691321100004-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 5.25 -0.8 0)
+		(layer "F.SilkS")
+		(uuid "efb6ba87-9df7-4488-861b-86b5aa492c9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "691321100004"
+		(at 5.25 -0.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ea86f5db-9209-4122-bc4e-5579b40e231b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c3e49b7-da91-41b2-9d32-9fc9d42c636e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c31bb34e-db07-4d3b-acd3-9ee352749b71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.45 -4.4)
+		(end 12.95 -4.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fa29194-d328-483f-8ba2-2246d723e944")
+	)
+	(fp_line
+		(start -2.45 2.8)
+		(end -2.45 -4.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7219fca1-bd84-4339-9cd4-ba3dbc764c18")
+	)
+	(fp_line
+		(start 12.95 -4.4)
+		(end 12.95 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b43c9695-1b68-4027-b4a4-1530a995f656")
+	)
+	(fp_line
+		(start 12.95 2.8)
+		(end -2.45 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58368d64-307f-45ae-a806-8bb84745b9a5")
+	)
+	(fp_line
+		(start -3.45 -5.4)
+		(end 13.95 -5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0adbab08-2517-49c2-93a8-584bbfeff00a")
+	)
+	(fp_line
+		(start -3.45 3.8)
+		(end -3.45 -5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2c13276-236e-43a8-88fc-9949141e62f7")
+	)
+	(fp_line
+		(start 13.95 -5.4)
+		(end 13.95 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a0ca05b-00d5-43b6-b0fd-10b116f8774b")
+	)
+	(fp_line
+		(start 13.95 3.8)
+		(end -3.45 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a320a960-d0bd-4353-ac7d-b77f889d6139")
+	)
+	(fp_line
+		(start -2.45 -4.4)
+		(end 12.95 -4.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af5edb43-2045-4ce4-a98b-3e750911872f")
+	)
+	(fp_line
+		(start -2.45 2.8)
+		(end -2.45 -4.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfd1f7f9-3cb0-402f-bc53-9dc72be43d43")
+	)
+	(fp_line
+		(start 12.95 -4.4)
+		(end 12.95 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2127de2c-1204-48b7-835d-a502e11291e1")
+	)
+	(fp_line
+		(start 12.95 2.8)
+		(end -2.45 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b64a3d3-16a4-4bce-94b6-4beef0088b03")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.25 -0.8 0)
+		(layer "F.Fab")
+		(uuid "a3772306-cbfb-48bf-aceb-401c5d9d5e3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -0.1)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17ca8c0c-642e-41a9-978f-6be04fd32738")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 -0.1)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80e42384-2ad4-413c-8797-05a33e9a31ba")
+	)
+	(pad "3" thru_hole circle
+		(at 7 -0.1)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc71c28a-f59b-4d44-af23-2f3cca9207ed")
+	)
+	(pad "4" thru_hole circle
+		(at 10.5 -0.1)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d561d2a4-1175-4349-aa12-63b31a55f3dd")
+	)
+	(embedded_fonts no)
+	(model "../glr-KiCAD-library/SamacSys_Parts.3dshapes/691321100004.stp"
+		(offset
+			(xyz 5.25 0.9 4.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
