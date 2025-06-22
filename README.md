@@ -1,4 +1,4 @@
-# glr-KiCad-library
+# glr-kicad-library
 
 This repository holds different symbols, footprints and 3D models used at Green Lion Racing.
 

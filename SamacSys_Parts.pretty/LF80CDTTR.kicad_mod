@@ -216,7 +216,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0fc6227a-5284-4989-8df9-9cd6620767f5")
 	)
-	(model "C:/GitHub/glr-KiCAD-library/SamacSys_Parts.3dshapes/LF80CDT-TR.step"
+	(model "..\\glr-kicad-library/SamacSys_Parts.3dshapes/LF80CDT-TR.step"
 		(offset
 			(xyz 0 0 0)
 		)

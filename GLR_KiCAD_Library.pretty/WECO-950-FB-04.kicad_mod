@@ -124,7 +124,7 @@
 		(uuid "cf629f83-8876-4ca7-b9f6-5f96d66512c1")
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/glr-KiCAD-library/GLR_KiCad_Library.3dshapes/WECO-950-FB-04.STEP"
+	(model "..\\glr-kicad-library/GLR_KiCad_Library.3dshapes/WECO-950-FB-04.STEP"
 		(offset
 			(xyz 0 -20 3.25)
 		)

@@ -217,7 +217,7 @@
 		(uuid "d561d2a4-1175-4349-aa12-63b31a55f3dd")
 	)
 	(embedded_fonts no)
-	(model "../glr-KiCAD-library/SamacSys_Parts.3dshapes/691321100004.stp"
+	(model "../glr-kicad-library/SamacSys_Parts.3dshapes/691321100004.stp"
 		(offset
 			(xyz 5.25 0.9 4.6)
 		)

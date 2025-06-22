@@ -21,7 +21,7 @@
   (fp_line (start -0.788 0.425) (end -0.788 -0.425) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -0.75 0 0) (size 0.85 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.75 0 0) (size 0.85 1) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\GitHub\\glr-KiCAD-library\\SamacSys_Parts.3dshapes\\CRCW060368R1FKEA.stp"
+  (model "..\\glr-kicad-library\\SamacSys_Parts.3dshapes\\CRCW060368R1FKEA.stp"
     (at (xyz 0.030708660290936 0.016535432554605 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
