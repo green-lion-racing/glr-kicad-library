@@ -42,7 +42,7 @@
   (pad 9 thru_hole circle (at -4.57 -9.14) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at 4.57 -9.14) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at 6.86 -9.14) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask))
-  (model E:/GitHub/GLR_KiCAD_Library/3D-Models/RJ45_Female_TE_6116173-4.stp
+  (model "../glr-kicad-Library/GLR_KiCAD_Library.3dshapes/RJ45_Female_TE_6116173-4.stp"
     (offset (xyz 0 -5.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -39,7 +39,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model C:/GitHub/GLR_KiCAD_Library/3D-Models/LED_OSRAM_LR_T67F_20141217.STEP
+  (model "../glr-kicad-Library/GLR_KiCAD_Library.3dshapes/LED_OSRAM_LR_T67F_20141217.STEP"
     (offset (xyz 0 0 1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
