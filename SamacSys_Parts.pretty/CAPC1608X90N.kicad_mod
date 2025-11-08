@@ -1,29 +1,171 @@
-(module "CAPC1608X90N" (layer F.Cu)
-  (descr "0603 (0.8mm)")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC1608X90N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.225 -0.62) (end 1.225 -0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.225 -0.62) (end 1.225 0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.225 0.62) (end -1.225 0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.225 0.62) (end -1.225 -0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-  (pad 1 smd rect (at -0.71 0 0) (size 0.73 0.94) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.71 0 0) (size 0.73 0.94) (layers F.Cu F.Paste F.Mask))
-  (model "..\\glr-kicad-library\\SamacSys_Parts.3dshapes\\CL10B104KB8NNNC.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAPC1608X90N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0603 (0.8mm)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b5c1c2a7-f016-4cf8-98b5-f4e0359b85b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X90N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cba7e73a-37ef-4cd4-b290-42f478077536")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db03d68b-83fc-4bcb-8d9b-db16f5dbee8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4236e4f-67e7-4365-96e5-0a840e601e10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.225 -0.62)
+		(end 1.225 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b234f7b7-4ae7-4066-abec-686f28e23bae")
+	)
+	(fp_line
+		(start -1.225 0.62)
+		(end -1.225 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "758ca0d8-330b-4a1f-b24f-06d4c85afd23")
+	)
+	(fp_line
+		(start 1.225 -0.62)
+		(end 1.225 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e0f9298-4e04-45c2-bd5c-c494c3b0b7a1")
+	)
+	(fp_line
+		(start 1.225 0.62)
+		(end -1.225 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d26a972-3201-4011-abda-d1fd55e4c611")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "922130eb-8297-4d25-997f-e1138fae4f16")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f997cc2-f20e-478c-bbff-e5cdfa6f47ce")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea8d787e-4755-4868-8dfa-ce3fb8f13e86")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59dc22f8-4681-47f0-acb5-bfbb7a2c39c1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "563b36fd-e0d3-44f4-b55d-c8238a35c05b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.71 0)
+		(size 0.73 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4aaf3652-ef71-4353-b997-8b987e6dd6a3")
+	)
+	(pad "2" smd rect
+		(at 0.71 0)
+		(size 0.73 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd53cb2c-6bd0-43d4-800f-00259c670cf5")
+	)
+	(embedded_fonts no)
+	(model "../SamacSys_Parts.3dshapes/CL10B104KB8NNNC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
