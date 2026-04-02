@@ -74,8 +74,8 @@
 		(uuid "eae67058-ccfc-4b0e-9c9f-0763e04d30a4")
 	)
 	(fp_line
-		(start -0.2 -2.1)
-		(end -0.2 -2.1)
+		(start -2.05 -2.05)
+		(end -2.05 -2.05)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "c555f876-db66-4246-a8e4-60776712849d")
 	)
 	(fp_line
-		(start -0.2 -2.1)
-		(end -0.2 -2.1)
+		(start -2.05 -2.05)
+		(end -2.05 -2.05)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -94,8 +94,8 @@
 		(uuid "f5f627ca-cc16-41b2-8b23-0abde96e92ab")
 	)
 	(fp_line
-		(start -0.1 -2.1)
-		(end -0.1 -2.1)
+		(start -1.95 -2.05)
+		(end -1.95 -2.05)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -124,9 +124,9 @@
 		(uuid "b9d49a1a-f91d-4853-95e8-f25c1d45f69b")
 	)
 	(fp_arc
-		(start -0.2 -2.1)
-		(mid -0.15 -2.15)
-		(end -0.1 -2.1)
+		(start -2.05 -2.05)
+		(mid -2 -2.1)
+		(end -1.95 -2.05)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -135,9 +135,9 @@
 		(uuid "02ab6397-5f18-40f4-ab70-9dac3e20670c")
 	)
 	(fp_arc
-		(start -0.1 -2.1)
-		(mid -0.15 -2.05)
-		(end -0.2 -2.1)
+		(start -1.95 -2.05)
+		(mid -2 -2)
+		(end -2.05 -2.05)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -146,9 +146,9 @@
 		(uuid "12fa3c77-40a7-4f49-b314-5f8b8b118f8f")
 	)
 	(fp_arc
-		(start -0.1 -2.1)
-		(mid -0.15 -2.05)
-		(end -0.2 -2.1)
+		(start -1.95 -2.05)
+		(mid -2 -2)
+		(end -2.05 -2.05)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -288,15 +288,15 @@
 		(uuid "48c9ef8a-865b-45cf-af7b-f1945b0515a3")
 	)
 	(embedded_fonts no)
-	(model "C:\\Engineering\\Formula Student\\Green-Lion-Racing-BSPD\\glr-kicad-library\\SamacSys_Parts.3dshapes\\TBA_1-2423E.stp"
+	(model "${KIPRJMOD}/glr-kicad-library/SamacSys_Parts.3dshapes/tba1e_dual_3d_drawing.stp"
 		(offset
-			(xyz -205.7899902 -179.3099949 -33.08999966)
+			(xyz -205.75 -179.3 -34)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
