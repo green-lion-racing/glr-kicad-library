@@ -1,0 +1,205 @@
+(footprint "L_Wurth_WE-PD-1510"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Power Inductor Shielded, body 15x15x10mm, https://www.we-online.com/en/components/products/WE-PD#/articles/WE-PD-1510-METAL")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e98165df-10d4-4e52-bdce-68993c882c9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-PD-1510"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ed22de0-eaaa-4793-9139-4bf87e2ecc9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "183fcc3d-a73f-41a5-8fe9-25cac61ca468")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4c6e298-2de6-4551-9f25-29a0a252ab30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.61 3.16)
+		(end -7.61 7.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b13cc786-99db-4a84-9b1a-571d3d1652e5")
+	)
+	(fp_line
+		(start -7.61 7.61)
+		(end 7.61 7.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04a574b9-bcf5-4982-8878-c094a8dcca31")
+	)
+	(fp_line
+		(start 0 -7.61)
+		(end 7.61 -7.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37389084-3d6e-4740-a40d-b00c4bb93ac1")
+	)
+	(fp_line
+		(start 7.61 -7.61)
+		(end 7.61 -3.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "684c4c88-6c63-4d60-87e4-a817779ce3b6")
+	)
+	(fp_line
+		(start 7.61 7.61)
+		(end 7.61 3.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7c0257d-3423-42ac-8585-d26dba91344e")
+	)
+	(fp_rect
+		(start -8.3 -7.75)
+		(end 8.3 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ec163a3c-bf9e-4291-ac58-268160e804e7")
+	)
+	(fp_line
+		(start -7.5 7.5)
+		(end -7.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e44817f-7086-45c2-9f3d-c74f4ac17180")
+	)
+	(fp_line
+		(start -7.5 7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e14c309-0055-4e21-a95f-83d48802cd66")
+	)
+	(fp_line
+		(start -3.5 -7.5)
+		(end -7.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad150172-e5e2-4139-8d75-226456deed88")
+	)
+	(fp_line
+		(start 7.5 -7.5)
+		(end -3.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0097097d-edf5-4ba8-93bd-efa19282b57d")
+	)
+	(fp_line
+		(start 7.5 7.5)
+		(end 7.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e7c6462-4a14-4a30-a17b-d92ff5a1e60c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce86d6a0-fda4-4b88-9c85-66e13b2e76da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.4 0)
+		(size 3.3 5.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63a898a7-f35c-403c-a490-449f126ff4dd")
+	)
+	(pad "2" smd rect
+		(at 6.4 0)
+		(size 3.3 5.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "319f09d2-d8cd-4263-8ef3-1e04aa3c22d4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/glr-kicad-library/GLR_KiCad_Library.3dshapes/L_Wurth_WE-PD-1510.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
