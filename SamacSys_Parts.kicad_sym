@@ -921,7 +921,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at -5.588 12.446 0)
+			(at -6.858 12.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -932,7 +932,7 @@
 			)
 		)
 		(property "Value" "AP64060WU-7"
-			(at -5.588 9.906 0)
+			(at -6.858 9.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -967,7 +967,7 @@
 			)
 		)
 		(property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K"
-			(at 1.016 0 0)
+			(at -0.254 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1039,8 +1039,8 @@
 		)
 		(symbol "AP64060WU-7_1_1"
 			(rectangle
-				(start -6.35 7.62)
-				(end 8.89 -8.89)
+				(start -7.62 7.62)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1050,7 +1050,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 5.08 180)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "BST"
 					(effects
@@ -1068,7 +1068,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -13.97 90)
+				(at 0 -15.24 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1086,7 +1086,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -1104,7 +1104,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -5.08 0)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -1122,7 +1122,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 3.81 0)
+				(at -12.7 5.08 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -1140,7 +1140,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 0 180)
+				(at 12.7 -1.27 180)
 				(length 5.08)
 				(name "SW"
 					(effects
