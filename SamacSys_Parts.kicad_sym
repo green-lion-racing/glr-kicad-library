@@ -921,25 +921,25 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at -6.858 12.446 0)
+			(at 0 12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify top)
 			)
 		)
 		(property "Value" "AP64060WU-7"
-			(at -6.858 9.906 0)
+			(at 0 9.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify top)
 			)
 		)
 		(property "Footprint" "SOT95P280X100-6N"
@@ -967,7 +967,7 @@
 			)
 		)
 		(property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K"
-			(at -0.254 -1.27 0)
+			(at -0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1040,7 +1040,7 @@
 		(symbol "AP64060WU-7_1_1"
 			(rectangle
 				(start -7.62 7.62)
-				(end 7.62 -10.16)
+				(end 7.62 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1068,7 +1068,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 90)
+				(at 0 -17.78 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1086,7 +1086,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -1104,7 +1104,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -7.62 0)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -1140,7 +1140,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -1.27 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "SW"
 					(effects
