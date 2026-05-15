@@ -312,15 +312,15 @@
 		(uuid "2044f98c-9de3-4708-8bee-69d02db42701")
 	)
 	(embedded_fonts no)
-	(model "../SamacSys_Parts.3dshapes/744235510.stp"
+	(model "${KIPRJMOD}/glr-kicad-library/SamacSys_Parts.3dshapes/744235510.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 2.8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -180 -0)
 		)
 	)
 )
