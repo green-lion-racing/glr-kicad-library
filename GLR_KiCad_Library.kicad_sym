@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "1608_150160AS73103"
+	(symbol "3528ADV_150141RS73113"
 		(pin_names
 			(hide yes)
 		)
@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" "1608_150160AS73103"
+		(property "Value" "3528ADV_150141RS73113"
 			(at 12.7 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33,7 +33,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMTW-1608"
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528ADV"
 			(at 12.7 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45,7 +45,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150160AS73103.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141RS73113.pdf?ki"
 			(at 12.7 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -116,7 +116,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150160AS73103"
+		(property "Part Number" "150141RS73113"
 			(at 12.7 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -128,7 +128,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "1608"
+		(property "Size" "3528ADV"
 			(at 12.7 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152,7 +152,7 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
+		(property "λDom typ.(nm)" "620 nm"
 			(at 12.7 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -164,7 +164,7 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
+		(property "Emitting Color" "Red"
 			(at 12.7 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -176,7 +176,7 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "610 nm"
+		(property "λPeak typ.(nm)" "629 nm"
 			(at 12.7 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -188,7 +188,7 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "700 mcd"
+		(property "IV typ.(mcd)" "900 mcd"
 			(at 12.7 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -200,7 +200,7 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2.1 V"
+		(property "VF typ.(V)" "2.2 V"
 			(at 12.7 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -212,7 +212,7 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlGaInP"
+		(property "Chip Technology" "AlInGaP"
 			(at 12.7 -15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -247,7 +247,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*WL-SMTW*1608*"
+		(property "ki_fp_filters" "*WL-SMTW*3528ADV*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -258,7 +258,7 @@
 				)
 			)
 		)
-		(symbol "1608_150160AS73103_1_0"
+		(symbol "3528ADV_150141RS73113_1_0"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -352,7 +352,7 @@
 				)
 			)
 		)
-		(symbol "1608_150160AS73103_1_1"
+		(symbol "3528ADV_150141RS73113_1_1"
 			(polyline
 				(pts
 					(xy 0.889 3.429) (xy 0 3.048) (xy 0 3.048) (xy 0.508 2.54) (xy 0.508 2.54) (xy 0.889 3.429)
@@ -416,7 +416,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "2214_150224AS73100"
+	(symbol "3528_150141GS73100"
 		(pin_names
 			(hide yes)
 		)
@@ -435,7 +435,7 @@
 				)
 			)
 		)
-		(property "Value" "2214_150224AS73100"
+		(property "Value" "3528_150141GS73100"
 			(at 12.7 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -447,7 +447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD_Wurth:D_Wurth_WL-SMTW-2214"
+		(property "Footprint" "GLR_KiCad_Library:D_Wurth_WL-SMTW-3528"
 			(at 12.7 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -459,7 +459,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150224AS73100.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150141GS73100.pdf?ki"
 			(at 12.7 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -530,7 +530,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "150224AS73100"
+		(property "Part Number" "150141GS73100"
 			(at 12.7 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -542,7 +542,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "2214"
+		(property "Size" "3528"
 			(at 12.7 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -566,7 +566,7 @@
 				(justify left)
 			)
 		)
-		(property "λDom typ.(nm)" "605 nm"
+		(property "λDom typ.(nm)" "525 nm"
 			(at 12.7 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -578,7 +578,7 @@
 				(justify left)
 			)
 		)
-		(property "Emitting Color" "Amber"
+		(property "Emitting Color" "Green"
 			(at 12.7 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -590,7 +590,7 @@
 				(justify left)
 			)
 		)
-		(property "λPeak typ.(nm)" "609 nm"
+		(property "λPeak typ.(nm)" "515 nm"
 			(at 12.7 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -602,7 +602,7 @@
 				(justify left)
 			)
 		)
-		(property "IV typ.(mcd)" "210 mcd"
+		(property "IV typ.(mcd)" "1000 mcd"
 			(at 12.7 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -614,7 +614,7 @@
 				(justify left)
 			)
 		)
-		(property "VF typ.(V)" "2 V"
+		(property "VF typ.(V)" "3.1 V"
 			(at 12.7 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -626,7 +626,7 @@
 				(justify left)
 			)
 		)
-		(property "Chip Technology" "AlInGaP"
+		(property "Chip Technology" "InGaN"
 			(at 12.7 -15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -661,7 +661,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*WL-SMTW*2214*"
+		(property "ki_fp_filters" "*WL-SMTW*3528*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -672,7 +672,7 @@
 				)
 			)
 		)
-		(symbol "2214_150224AS73100_1_0"
+		(symbol "3528_150141GS73100_1_0"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -687,7 +687,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -3.81 0) (xy -3.81 -3.81) (xy -1.27 -3.81)
+					(xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -699,7 +699,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy 1.27 0)
+					(xy -1.27 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -711,7 +711,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 2.032) (xy 0.889 3.429)
+					(xy -0.635 1.905) (xy -2.032 3.302)
 				)
 				(stroke
 					(width 0.254)
@@ -723,7 +723,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 1.905) (xy 2.032 3.302)
+					(xy 0.508 2.032) (xy -0.889 3.429)
 				)
 				(stroke
 					(width 0.254)
@@ -747,31 +747,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy -1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -3.81) (xy 3.81 -3.81) (xy 3.81 0) (xy 1.27 0)
+					(xy 1.27 -1.27) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.254)
@@ -782,7 +758,7 @@
 				)
 			)
 			(text "+"
-				(at -5.08 -0.762 0)
+				(at 2.54 -0.635 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -790,46 +766,10 @@
 				)
 			)
 		)
-		(symbol "2214_150224AS73100_1_1"
+		(symbol "3528_150141GS73100_1_1"
 			(polyline
 				(pts
-					(xy -1.27 -2.667) (xy -1.27 -5.207)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -2.667) (xy -0.635 -2.667)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -5.207) (xy -1.905 -5.207)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.889 3.429) (xy 0 3.048) (xy 0 3.048) (xy 0.508 2.54) (xy 0.508 2.54) (xy 0.889 3.429)
+					(xy -2.032 3.302) (xy -1.143 2.921) (xy -1.143 2.921) (xy -1.651 2.413) (xy -1.651 2.413) (xy -2.032 3.302)
 				)
 				(stroke
 					(width 0.254)
@@ -841,19 +781,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.667) (xy 1.27 -5.207) (xy -1.27 -3.937) (xy 1.27 -2.667)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.032 3.302) (xy 1.143 2.921) (xy 1.143 2.921) (xy 1.651 2.413) (xy 1.651 2.413) (xy 2.032 3.302)
+					(xy -0.889 3.429) (xy 0 3.048) (xy 0 3.048) (xy -0.508 2.54) (xy -0.508 2.54) (xy -0.889 3.429)
 				)
 				(stroke
 					(width 0.254)
@@ -864,7 +792,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 0 180)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -882,7 +810,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 0 0)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name "+"
 					(effects
